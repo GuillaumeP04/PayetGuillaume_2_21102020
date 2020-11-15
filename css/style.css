@@ -1,6 +1,6 @@
 body {
   font-family: Raleway, sans-serif;
-  max-width: 1100px;
+  max-width: 1150px;
   margin: auto;
 }
 
@@ -27,7 +27,7 @@ ul {
   list-style: none;
   padding: 20px 25px;
   color: black;
-  margin: 25px;
+  margin-top: 15px;
 }
 
 .nav-items:hover {
@@ -61,7 +61,7 @@ input {
   border: transparent;
 }
 
-h4 {
+.intro h4 {
   margin-bottom: 0px;
   margin-top: 40px;
 }
@@ -119,6 +119,7 @@ h4 {
 .info {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .info i {
@@ -133,6 +134,206 @@ h4 {
 .info p {
   font-size: 12px;
   margin: 10px;
+}
+
+.mid-section {
+  display: flex;
+}
+
+.section-hebergement {
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  max-width: 700px;
+  padding: 10px;
+  margin-right: 50px;
+}
+
+.header-hebergement {
+ margin: 25px 0px 5px 15px;
+}
+
+.wrapper-hebergement {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.section-hebergement img {
+  height: 100px;
+  width: 200px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.hotel-info {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.hotel-name {
+  font-weight: bold;
+}
+
+.hotel-info i {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.hotel-info p {
+  margin: 5px 0px 5px 5px;
+  font-size: 12px;
+}
+
+.hotel-info i:first-of-type {
+  margin-left: 5px;
+}
+
+.footer-hebergement h5 {
+  margin-left: 15px;
+}
+
+.header-pop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-pop i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.header-pop h4 {
+  margin-left: 15px;
+}
+
+.section-populaire {
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  max-width: 360px;
+  padding: 10px;
+}
+
+.section-populaire img {
+  height: 110px;
+  width: 120px;
+  border-radius: 15px 0px 0px 15px;
+  margin-right: 10px;
+}
+
+.hotel-info-pop {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 15px;
+  margin: 15px;
+  display: flex;
+}
+
+.hotel-info-pop p {
+  margin: 5px 0px 5px 5px;
+  font-size: 12px;
+}
+
+.hotel-info-pop i {
+  margin-bottom: 5px;
+  order: 4;
+}
+
+.hotel-name-pop {
+  font-weight: bold;
+  order: 2;
+}
+
+.price-pop {
+  order: 3;
+}
+
+.checked {
+  color: #0065FC;
+  font-size: 12px;
+}
+
+.not-checked {
+  color: #F2F2F2;
+  font-size: 12px;
+}
+
+.activity-marseille h4 {
+  margin: 30px 0px 10px 0px;
+}
+
+.last-section {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 450px;
+  width: fit-content;
+}
+
+.last-section img {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.last-section p {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.big-image {
+  height: 290px;
+  width: 275px;
+}
+
+.medium-image {
+  height: 140px;
+  width: 270px;
+}
+
+.small-image {
+  height: 100px;
+  width: 270px;
+}
+
+.activity-info {
+  border: solid 2px #F2F2F2;
+  border-radius: 15px;
+  margin: 0px 15px 10px 0px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  margin-top: 20px;
+  border-bottom: #F2F2F2 solid 15px;
+}
+
+.footer-text-propos {
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text-hebergement {
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text-assistance {
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer a {
+  font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
 }
 
   @media all and (max-width: 600px) {
