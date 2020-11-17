@@ -1,10 +1,14 @@
 body {
   font-family: Raleway, sans-serif;
+  margin: 0px;
+}
+
+.box {
   max-width: 1150px;
   margin: auto;
 }
 
-.container {
+nav {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -45,30 +49,32 @@ ul {
 }
 
 input {
-  padding: 5px;
+  padding: 10px;
   font-family: Raleway, sans-serif;
   font-weight: bold;
   border: transparent;
   font-size: 16px;
   margin-bottom: 25px;
+  border-top: #F2F2F2 solid 2px;
+  border-bottom: #F2F2F2 solid 2px;
 }
 
 .search-button {
   border-radius: 0px 10px 10px 0px;
   color: white;
   background-color: #0065FC;
-  padding: 12px;
+  padding: 13px;
   border: transparent;
 }
 
-.intro h4 {
+.intro h2 {
   margin-bottom: 0px;
   margin-top: 40px;
 }
 
 .intro p {
   margin-bottom: 15px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .wrapper {
@@ -83,6 +89,7 @@ input {
   border-radius: 10px 0px 0px 10px;
   padding: 15px 20px 15px 20px;
   background-color: #F2F2F2;
+  margin: 0px;
 }
 
 .wrapper h5 {
@@ -116,6 +123,10 @@ input {
   padding-left: 10px;
 }
 
+.filter-button :hover {
+  background-color: #DEEBFF;
+}
+
 .info {
   display: flex;
   align-items: center;
@@ -132,11 +143,11 @@ input {
 }
 
 .info p {
-  font-size: 12px;
+  font-size: 15px;
   margin: 10px;
 }
 
-.mid-section {
+main {
   display: flex;
 }
 
@@ -169,6 +180,11 @@ input {
   border: 5px solid white;
   border-radius: 15px;
   margin: 10px;
+  text-decoration: none;
+}
+
+.hotel-info img {
+  object-fit: cover;
 }
 
 .hotel-name {
@@ -183,13 +199,14 @@ input {
 .hotel-info p {
   margin: 5px 0px 5px 5px;
   font-size: 12px;
+  color: black;
 }
 
 .hotel-info i:first-of-type {
   margin-left: 5px;
 }
 
-.footer-hebergement h5 {
+.footer-hebergement h4 {
   margin-left: 15px;
 }
 
@@ -205,7 +222,7 @@ input {
   font-size: 20px;
 }
 
-.header-pop h4 {
+.header-pop h3 {
   margin-left: 15px;
 }
 
@@ -227,27 +244,18 @@ input {
   background-color: white;
   border: 5px solid white;
   border-radius: 15px;
-  margin: 15px;
+  margin: 25px;
   display: flex;
+  text-decoration: none;
 }
 
 .hotel-info-pop p {
-  margin: 5px 0px 5px 5px;
   font-size: 12px;
-}
-
-.hotel-info-pop i {
-  margin-bottom: 5px;
-  order: 4;
+  color: black;
 }
 
 .hotel-name-pop {
   font-weight: bold;
-  order: 2;
-}
-
-.price-pop {
-  order: 3;
 }
 
 .checked {
@@ -260,11 +268,11 @@ input {
   font-size: 12px;
 }
 
-.activity-marseille h4 {
+.activity-marseille h3 {
   margin: 30px 0px 10px 0px;
 }
 
-.last-section {
+.activity-marseille {
   display: flex;
   flex-flow: column wrap;
   max-height: 450px;
@@ -284,16 +292,19 @@ input {
 .big-image {
   height: 290px;
   width: 275px;
+  object-fit: cover;
 }
 
 .medium-image {
   height: 140px;
   width: 270px;
+  object-fit: cover;
 }
 
 .small-image {
   height: 100px;
   width: 270px;
+  object-fit: cover;
 }
 
 .activity-info {
@@ -302,7 +313,7 @@ input {
   margin: 0px 15px 10px 0px;
 }
 
-.footer {
+footer {
   display: flex;
   flex-wrap: wrap;
   background-color: #F2F2F2;
@@ -310,25 +321,13 @@ input {
   border-bottom: #F2F2F2 solid 15px;
 }
 
-.footer-text-propos {
+.footer-text {
   margin-right: 150px;
   display: flex;
   flex-direction: column;
 }
 
-.footer-text-hebergement {
-  margin-right: 150px;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-text-assistance {
-  margin-right: 150px;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer a {
+footer a {
   font-size: 13px;
   margin-top: 0px;
   margin-bottom: 10px;
@@ -336,8 +335,12 @@ input {
   color: black;
 }
 
-  @media all and (max-width: 600px) {
+@media all and (max-width: 1024px) {
   body {
-    font-family: Raleway, sans-serif;
-    }
+  font-family: Raleway, sans-serif;
   }
+}
+
+@media all and (max-width: 480px) {
+
+}
