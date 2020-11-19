@@ -237,6 +237,7 @@ main {
   background-color: #F2F2F2;
   border-radius: 15px;
   max-width: 360px;
+  min-width: 350px;
   padding: 10px;
 }
 
@@ -283,7 +284,6 @@ main {
   display: flex;
   flex-flow: column wrap;
   max-height: 450px;
-  width: fit-content;
 }
 
 .last-section img {
@@ -298,7 +298,7 @@ main {
 
 .big-image {
   height: 290px;
-  width: 275px;
+  width: 270px;
   object-fit: cover;
 }
 
@@ -345,8 +345,39 @@ footer a {
   color: black;
 }
 
+@media all and (max-width: 1170px) {
+  .box {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .activity-marseille {
+    display: flex;
+    max-height: 800px;
+    max-width: 280px;
+  }
+
+  .activity-info {
+    max-width: 270px;
+  }
+} 
+
 @media all and (max-width: 1024px) {
- 
+ .box {
+   margin-right: 10px;
+   margin-left: 10px;
+ }
+
+ .activity-marseille {
+   max-width: 280px;
+   max-height: 900px;
+ }
+
+ .activity-info {
+   max-width: 270px;
+ }
+
+
 }
 
 @media all and (max-width: 480px) {
