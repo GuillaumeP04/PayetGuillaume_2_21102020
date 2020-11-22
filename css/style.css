@@ -64,6 +64,10 @@ input {
   border: transparent;
 }
 
+.search-icon {
+  display: none;
+}
+
 .intro h2 {
   margin-bottom: 0px;
   margin-top: 40px;
@@ -99,7 +103,7 @@ input {
 }
 
 .wrapper h5 {
-  margin-right: 15px ;
+  margin: 20px 15px 20px 0px;
 }
 
 .filter-button {
@@ -236,9 +240,8 @@ main {
 .section-populaire {
   background-color: #F2F2F2;
   border-radius: 15px;
-  max-width: 360px;
   min-width: 350px;
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .section-populaire img {
@@ -376,10 +379,87 @@ footer a {
  .activity-info {
    max-width: 270px;
  }
-
-
 }
 
 @media all and (max-width: 480px) {
 
+  .box {
+    max-width: 350px;
+    margin: auto;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .nav-items-sign-up {
+    order: -1;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .wrapper h4 {
+    margin-right: 200px;
+  }
+
+  .search-icon {
+    display: inline;
+    color: white;
+    background-color: #0065FC;
+    border-radius: 10px;
+  }
+
+  .search-button {
+    display: none;
+  }
+
+  .filter-button {
+    margin-bottom: 10px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-hebergement {
+    margin-right: 0px;
+    background-color: white;
+    order: 2;
+  }
+
+  .hotel-info {
+    border: solid 2px #F2F2F2;
+    padding: 3px;
+  }
+
+  .hotel-info img {
+    height: 115px;
+    width: 330px;
+  }
+
+  .activity-marseille {
+    display: flex;
+    flex-flow: column nowrap;
+    max-height: none;
+    max-width: none;
+ }
+
+  .activity-info img {
+    height: 115px;
+    width: 330px;
+  }
+
+  .activity-info {
+    max-width: none;
+  }
+
+  .footer-wrap {
+    display: flex;
+    flex-direction: column;
+  }
 }
