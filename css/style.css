@@ -8,6 +8,14 @@ body {
   margin: auto;
 }
 
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
 .hide-on-mobile {
   display: flex;
   width: 100%;
@@ -48,10 +56,6 @@ ul {
   font-weight: bold;
 }
 
-.search-bar {
-  display: inline;
-}
-
 input {
   padding: 10px;
   font-family: Raleway, sans-serif;
@@ -72,7 +76,7 @@ input {
   display: none;
 }
 
-.intro h2 {
+.intro h1 {
   margin-bottom: 0px;
   margin-top: 40px;
 }
@@ -85,15 +89,16 @@ input {
 .wrapper {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 15px;
   margin-top: 30px;
   align-items: center;
 }
 
-.intro-search i {
+.pin {
   color: black;
   border-radius: 10px 0px 0px 10px;
-  padding: 15px 20px 18px 20px;
+  padding: 19px 20px 18px 20px;
   background-color: #F2F2F2;
   margin: 0px;
 }
@@ -106,8 +111,9 @@ input {
   height: fit-content;
 }
 
-.wrapper h5 {
+.wrapper h2 {
   margin: 20px 15px 20px 0px;
+  font-size: 15px;
 }
 
 .filter-button {
@@ -140,6 +146,7 @@ input {
 .wrapper button:hover {
   background-color: #DEEBFF;
   background-clip: padding-box;
+  border: 2px solid #deebff;
 }
 
 .info {
@@ -221,7 +228,7 @@ input {
   margin-left: 5px;
 }
 
-.footer-hebergement h4 {
+.footer-hebergement h3 {
   margin-left: 15px;
 }
 
@@ -237,7 +244,7 @@ input {
   font-size: 20px;
 }
 
-.header-pop h3 {
+.header-pop h2 {
   margin-left: 15px;
 }
 
@@ -283,7 +290,7 @@ input {
   font-size: 12px;
 }
 
-.activity-marseille h3 {
+.activity-marseille h2 {
   margin: 30px 0px 10px 0px;
 }
 
@@ -398,7 +405,6 @@ footer a {
 
   .show-on-mobile {
     display: block;
-    width: 100%;
   }
 
   .mobile-nav-top {
@@ -444,15 +450,24 @@ footer a {
     flex-flow: row wrap;
   }
 
-  .wrapper h4 {
+  .wrapper h3 {
     margin-right: 200px;
   }
 
   .search-icon {
+    font-size: 20px;
+    padding: 16px 15px 18px 15px ;
+    border-radius: 12px;
     display: inline;
     color: white;
     background-color: #0065FC;
-    border-radius: 10px;
+  }
+
+  .search-icon-button {
+    background-color: #0065FC;
+    border-radius: 12px;
+    border: none;
+    padding: 0px 5px;
   }
 
   .search-button {
