@@ -7,15 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <nav class="box">
-        <img src="img/reservialogo.png" alt="Reservia Logo" class="logo">
-        <ul>
-            <li><a href="#" class="nav-items">Hébergement</a></li>
-            <li><a href="#" class="nav-items">Activités</a></li>
-            <li><a href="#" class="nav-items nav-items-sign-up">S'inscrire</a></li>
-        </ul>
-    </nav>
     <header class="box">
+        <nav class="show-on-mobile">
+            <ul class="mobile-nav-top"> 
+                <img src="img/reservialogo.png" alt="Reservia Logo" class="logo">
+                <li><a href="#" class="nav-items nav-items-sign-up">S'inscrire</a></li>
+            </ul>
+            <ul class="mobile-nav-bottom">
+                <li><a href="#" class="nav-items">Hébergement</a></li>
+                <li><a href="#" class="nav-items">Activités</a></li>
+            </ul> 
+        </nav>
+        <nav class="hide-on-mobile">
+            <img src="img/reservialogo.png" alt="Reservia Logo" class="logo">
+            <ul>
+                <li><a href="#" class="nav-items">Hébergement</a></li>
+                <li><a href="#" class="nav-items">Activités</a></li>
+                <li><a href="#" class="nav-items nav-items-sign-up">S'inscrire</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <section class="box">
         <div class="intro">
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre ville ou en pleine nature</p>
@@ -49,9 +61,9 @@
             <i class="fas fa-info"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>  
-    </header>
-    <main class="box"> 
-        <div class="section-hebergement">
+    </section>
+    <section class="box mid-section-wrapper"> 
+        <main class="section-hebergement">
             <h3 class="header-hebergement">Hébergement à Marseille</h3>
             <div class="wrapper-hebergement">
                 <a class="hotel-info" href="#">
@@ -118,8 +130,8 @@
             <div class="footer-hebergement">
                 <h4>Afficher plus</h4>
             </div>
-        </div>
-        <div class="section-populaire">
+        </main>
+        <aside class="section-populaire">
             <div class="header-pop">
                 <h3>Les plus populaires</h3>
                 <i class="fas fa-chart-line"></i> 
@@ -160,8 +172,8 @@
                     <i class="fas fa-star not-checked"></i>
                 </div>
             </a>
-        </div>
-    </main>
+        </aside>
+    </section>
     <section class="last-section box">
         <h3>Activités à Marseille</h3>
         <div class="activity-marseille">
