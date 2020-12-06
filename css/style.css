@@ -425,15 +425,13 @@ footer a {
   }
 
   .hotel-info-pop {
-    display: flex;
-    flex-direction: column;
+    display: block;
     background-color: white;
     border: 5px solid white;
     border-radius: 15px;
     margin: 10px;
     text-decoration: none;
     max-width: 320px;
-    max-height: 200px;
   }
 
   .hotel-info-pop img {
@@ -523,7 +521,6 @@ footer a {
 
   .search-icon {
     font-size: 20px;
-    padding: 12px;
     border-radius: 12px;
     display: inline;
     color: white;
@@ -534,7 +531,7 @@ footer a {
     background-color: #0065FC;
     border-radius: 12px;
     border: none;
-    padding: 0px 5px;
+    padding: 12px;
   }
 
   .search-button {
@@ -568,7 +565,7 @@ footer a {
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .hotel-info {
     border: solid 2px #F2F2F2;
     padding: 3px;
