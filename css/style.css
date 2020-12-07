@@ -416,6 +416,7 @@ footer a {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+    max-width: 320px;
   }
 
   .section-populaire {
@@ -583,6 +584,10 @@ footer a {
     padding: 0px;
   }
 
+  .section-populaire {
+    min-width: 0px;
+  }
+
   .section-hebergement {
     margin-right: 0px;
     background-color: white;
@@ -610,8 +615,8 @@ footer a {
 
   .hotel-info img {
     height: 115px;
-    width: 330px;
     object-fit: cover;
+    max-width: none;
   }
 
   .section-populaire {
