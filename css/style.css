@@ -238,6 +238,11 @@ input {
 
 .footer-hebergement h3 {
   margin-left: 15px;
+  color: black;
+}
+
+.footer-hebergement a {
+  text-decoration: none;
 }
 
 .header-pop {
