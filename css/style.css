@@ -323,9 +323,10 @@ input {
 }
 
 .last-section p {
-  margin: 10px;
+  margin: 5px 10px;
   font-weight: bold;
   font-size: 12px;
+  color: black;
 }
 
 .info-wrapper-one {
@@ -682,43 +683,40 @@ footer a {
   .activity-marseille {
     display: flex;
     flex-flow: column nowrap;
-    max-height: none;
-    max-width: none;
+    height: auto;
  }
 
   .activity-info-two img {
-    height: 150px;
+    height: 125px;
     max-width: none;
     object-fit: cover;
   }
 
   .activity-info-one img {
-    height: 150px;
+    height: 125px;
     max-width: none;
     object-fit: cover;
   }
 
   .activity-info-one {
     max-width: none;
-    margin-right: 0px;
+    margin-bottom: 15px;
+    width: 100%;
   }
 
   .activity-info-two {
     max-width: none;
-    margin-right: 0px;
+    margin-bottom: 15px;
+    width: 100%;
   }
 
   .info-wrapper-one {
     display: block;
-    margin-right: 0px;
-    max-width: none;
     width: 100%;
   }
 
   .info-wrapper-two {
     display: block;
-    max-width: none;
-    margin-right: 0px;
     width: 100%;
   }
 
