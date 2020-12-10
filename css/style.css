@@ -390,9 +390,10 @@ footer {
 }
 
 .footer-text {
-  margin-right: 200px;
+  margin-right: 50px;
   display: flex;
   flex-direction: column;
+  width: 33%;
 }
 
 .footer-text h4 {
